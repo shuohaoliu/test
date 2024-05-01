@@ -4,4 +4,4 @@ jobs:
   Hello-World-Job:
     runs-on: codebuild-github-sample-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
-      - run: echo "Hello World!"
+      - run: echo "Hello World 2!"
